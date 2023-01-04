@@ -1,20 +1,27 @@
 {
-  "name": "nodejs-express",
+  "name": "express-sequelize-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx nodemon ./src/app.js"
+    "dev": "npx nodemon ./src/app.js",
+    "pretty": "prettier --write \"**/*.js\""
   },
   "keywords": [],
   "author": "Arthur Ferreira",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "nodemon": "^2.0.13"
   },
   "dependencies": {
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "express": "^4.17.1",
+    "prettier": "^2.8.1",
     "sequelize": "^6.6.5"
   }
 }

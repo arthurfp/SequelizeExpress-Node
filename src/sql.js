@@ -1,2 +1,3 @@
-const sql = require('sequelize')
+const sql = require('sequelize');
 
+console.log(sql);
